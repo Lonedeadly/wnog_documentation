@@ -30,7 +30,7 @@
 
 *В параметрах запроса указывается (order_number) или (delivery_contract_number и application_number)
 
-Пример тела запроса:
+**Пример тела запроса:**
 >[<br/>
 &emsp;{<br/>
 &emsp;&emsp;"order_number": "НомерЗаявки"<br/>
@@ -84,7 +84,7 @@
 | fias_id | Код в системе ФИАС | `Строка (50)` |
 | kladr_id | Код в системе КЛАДР | `Строка (50)` |
 
-Пример ответа:
+**Пример ответа:**
 >[<br/> 
 &emsp;&emsp;{<br/>
 &emsp;&emsp;&emsp;&emsp;"client_reference": "РеференсКлиента",<br/>
