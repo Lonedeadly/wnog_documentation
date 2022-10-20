@@ -1,20 +1,20 @@
 
 # Документация API WNOG
 
-## Содержание
-1. [Авторизация](#Авторизация)<span id="АвторизацияМеню"><span>
-2. [Перевозка](#Перевозка)<span id="ПеревозкаМеню"><span>
-    1. [Получение информации](#ПеревозкаGet)<span id="ПеревозкаGetМеню"><span>
+## Содержание <span id="Содержание">
+1. [Авторизация](#Авторизация)<span>
+2. [Перевозка](#Перевозка)
+    1. [Получение информации](#ПеревозкаGet)
 
-## [1. Авторизация](#АвторизацияМеню)<span id="Авторизация"><span>
+## [1. Авторизация](#Содержание)<span id="Авторизация"><span>
 
 Указываем токен в заголовках HTTP запроса под ключем "Authorization"
 
-## [2. Перевозка](#ПеревозкаМеню)<span id="Перевозка"><span>
+## [2. Перевозка](#Содержание)<span id="Перевозка"><span>
 
 > Наименование метода: Order
 
-### [2.1 Получение информации (GET)](#ПеревозкаGetМеню)<span id="ПеревозкаGet"><span>
+### [2.1 Получение информации (GET)](#Содержание)<span id="ПеревозкаGet"><span>
 
 ### Запрос:
 > Метод запроса: **GET**
@@ -86,34 +86,45 @@
 
 Пример ответа:
 >[<br/> 
-&emsp;{<br/>
-&emsp;&emsp;"client_reference": "РеференсКлиента",<br/>
-&emsp;&emsp;"quote_number": "НомерКотировки",<br/>
-&emsp;&emsp;"wnog_reference": "000.0000",<br/>
-&emsp;&emsp;"delivery_contract_number": "НомерДоговораПоставки",<br/>
-&emsp;&emsp;"application_number": "НомерПриложения",<br/>
-&emsp;&emsp;"client_coordinators": [<br/>
-&emsp;&emsp;&emsp;&emsp;"Иван Иванов"<br/>
-&emsp;&emsp;],<br/>
-&emsp;&emsp;"wnog_coordinator": "Петя Петров",<br/>
-&emsp;&emsp;"product_line": "",<br/>
-&emsp;&emsp;"vehicle_type": "auto",<br/>
-&emsp;&emsp;"vehicle_number": "RU050369929",<br/>
-&emsp;&emsp;"order_number": "Тест по номеру заявки",<br/>
-&emsp;&emsp;"service_level": "LTL",<br/>
-&emsp;&emsp;"cargo_name": "остаток пробы переводник ",<br/>
-&emsp;&emsp;"cargo_count": 1,<br/>
-&emsp;&emsp;"cargo_weight": 3,<br/>
-&emsp;&emsp;"cargo_volume": 0.01,<br/>
-&emsp;&emsp;"cargo_count_plan": 0,<br/>
-&emsp;&emsp;"cargo_weight_plan": 0,<br/>
-&emsp;&emsp;"cargo_volume_plan": 0,<br/>
-&emsp;&emsp;"etd": "2021-04-23T00:00:00",<br/>
-&emsp;&emsp;"eta": "2021-04-30T00:00:00",<br/>
-&emsp;&emsp;"atd": "2021-04-23T00:00:00",<br/>
-&emsp;&emsp;"ata": "2021-04-27T00:00:00",<br/>
-&emsp;&emsp;"point_city": "Мегион, Ханты-Манс. авт. окр.",<br/>
-&emsp;&emsp;"point_status": "Выгружено",<br/>
-&emsp;&emsp;"point_dateStatus": "2021-04-28T12:41:01"<br/>
-&emsp;},<br/>
+&emsp;&emsp;{<br/>
+&emsp;&emsp;&emsp;&emsp;"client_reference": "РеференсКлиента",<br/>
+&emsp;&emsp;&emsp;&emsp;"quote_number": "НомерКотировки",<br/>
+&emsp;&emsp;&emsp;&emsp;"wnog_reference": "000.0000",<br/>
+&emsp;&emsp;&emsp;&emsp;"delivery_contract_number": "НомерДоговораПоставки",<br/>
+&emsp;&emsp;&emsp;&emsp;"application_number": "НомерПриложения",<br/>
+&emsp;&emsp;&emsp;&emsp;"client_coordinators": [<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"Иван Иванов"<br/>
+&emsp;&emsp;&emsp;&emsp;],<br/>
+&emsp;&emsp;&emsp;&emsp;"wnog_coordinator": "Петя Петров",<br/>
+&emsp;&emsp;&emsp;&emsp;"product_line": "",<br/>
+&emsp;&emsp;&emsp;&emsp;"vehicle_type": "auto",<br/>
+&emsp;&emsp;&emsp;&emsp;"vehicle_number": "RU050369929",<br/>
+&emsp;&emsp;&emsp;&emsp;"order_number": "Тест по номеру заявки",<br/>
+&emsp;&emsp;&emsp;&emsp;"service_level": "LTL",<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_name": "остаток пробы переводник ",<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_count": 1,<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_weight": 3,<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_volume": 0.01,<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_count_plan": 0,<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_weight_plan": 0,<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_volume_plan": 0,<br/>
+&emsp;&emsp;&emsp;&emsp;"etd": "2021-04-23T00:00:00",<br/>
+&emsp;&emsp;&emsp;&emsp;"eta": "2021-04-30T00:00:00",<br/>
+&emsp;&emsp;&emsp;&emsp;"atd": "2021-04-23T00:00:00",<br/>
+&emsp;&emsp;&emsp;&emsp;"ata": "2021-04-27T00:00:00",<br/>
+&emsp;&emsp;&emsp;&emsp;"point_city": "Мегион, Ханты-Манс. авт. окр.",<br/>
+&emsp;&emsp;&emsp;&emsp;"point_status": "Выгружено",<br/>
+&emsp;&emsp;&emsp;&emsp;"point_fias_id": "d9c157ca-fd05-4efc-ae0c-16927612a0c8",<br/>
+&emsp;&emsp;&emsp;&emsp;"point_kladr_id": "8600000400000",<br/>
+&emsp;&emsp;&emsp;&emsp;"point_dateStatus": "2021-04-28T12:41:01"<br/>
+&emsp;&emsp;&emsp;&emsp;"history_points": [<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"city": "Тюмень, Тюменская область",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"date": "2021-04-23T14:17:47",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "Прибытие на погрузку",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "9ae64229-9f7b-4149-b27a-d1f6ec74b5ce",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": "7200000100000"<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}<br/>
+&emsp;&emsp;&emsp;&emsp;]<br/>
+&emsp;&emsp;},<br/>
 ]<br/>
