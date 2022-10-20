@@ -14,7 +14,7 @@
 
 ## [2. Перевозка](#Содержание)<span id="Shipping"><span>
 
-> Наименование метода: Order
+> Наименование метода: **Order**
 
 ### [2.1 Получение информации (GET)](#Содержание)<span id="ShippingGet"><span>
 
@@ -52,7 +52,7 @@
 | wnog_reference | Референс WNOG | `Строка (8)` | 
 | delivery_contract_number| Номер договора поставки | `Строка (50)` |
 | application_number | Номер приложения | `Строка (30)` |
-| client_coordinators | Координатор клиента | Массив: <br/>`Строка (100)` |
+| client_coordinators | Координатор клиента | Массив: `Строка (100)` |
 | wnog_coordinator | Координатор WNOG | `Строка (100) `|
 | product_line | Продуктовая линейка | `Строка (50)` |
 | vehicle_type | Тип транспорта <br/> - auto<br/> - air<br/> - sea<br/> - rail | `Строка (5)` | 
