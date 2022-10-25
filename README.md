@@ -97,19 +97,19 @@
 &emsp;&emsp;&emsp;&emsp;"client_coordinators": [<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"Иван Иванов"<br/>
 &emsp;&emsp;&emsp;&emsp;],<br/>
-&emsp;&emsp;&emsp;&emsp;"wnog_coordinator": "Петя Петров",<br/>
-&emsp;&emsp;&emsp;&emsp;"product_line": "",<br/>
+&emsp;&emsp;&emsp;&emsp;"wnog_coordinator": "Петр Петров",<br/>
+&emsp;&emsp;&emsp;&emsp;"product_line": "Продуктовая линейка",<br/>
 &emsp;&emsp;&emsp;&emsp;"vehicle_type": "auto",<br/>
 &emsp;&emsp;&emsp;&emsp;"vehicle_number": "RU050369929",<br/>
-&emsp;&emsp;&emsp;&emsp;"order_number": "Тест по номеру заявки",<br/>
+&emsp;&emsp;&emsp;&emsp;"order_number": "30996928",<br/>
 &emsp;&emsp;&emsp;&emsp;"service_level": "LTL",<br/>
-&emsp;&emsp;&emsp;&emsp;"cargo_name": "остаток пробы переводник ",<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_name": "Оборудование (газовое и нефтегазовое)",<br/>
 &emsp;&emsp;&emsp;&emsp;"cargo_count": 1,<br/>
 &emsp;&emsp;&emsp;&emsp;"cargo_weight": 3,<br/>
 &emsp;&emsp;&emsp;&emsp;"cargo_volume": 0.01,<br/>
-&emsp;&emsp;&emsp;&emsp;"cargo_count_plan": 0,<br/>
-&emsp;&emsp;&emsp;&emsp;"cargo_weight_plan": 0,<br/>
-&emsp;&emsp;&emsp;&emsp;"cargo_volume_plan": 0,<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_count_plan": 1,<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_weight_plan": 3,<br/>
+&emsp;&emsp;&emsp;&emsp;"cargo_volume_plan": 0.02,<br/>
 &emsp;&emsp;&emsp;&emsp;"etd": "2021-04-23T00:00:00",<br/>
 &emsp;&emsp;&emsp;&emsp;"eta": "2021-04-30T00:00:00",<br/>
 &emsp;&emsp;&emsp;&emsp;"atd": "2021-04-23T00:00:00",<br/>
@@ -126,6 +126,48 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "Прибытие на погрузку",<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "9ae64229-9f7b-4149-b27a-d1f6ec74b5ce",<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": "7200000100000"<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;},<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"city": "Тюмень, Тюменская область",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"date": "2021-04-23T15:17:47",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "На погрузке",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "9ae64229-9f7b-4149-b27a-d1f6ec74b5ce",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": "7200000100000"<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"city": "Тюмень, Тюменская область",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"date": "2021-04-23T14:20:41",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "Погружено",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "9ae64229-9f7b-4149-b27a-d1f6ec74b5ce",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": "7200000100000"<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;},<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"city": "Сургут, Ханты-Манс. авт. окр.",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"date": "2021-04-26T14:07:13",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "В пути",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": ""<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;},<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"city": "Сургут, Ханты-Манс. авт. окр.",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"date": "2021-04-27T00:00:00",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "Задержка в пути",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": ""<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;},<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"city": "Мегион, Ханты-Манс. авт. окр.",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"date": "2021-04-27T10:35:25",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "На выгрузке",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "d9c157ca-fd05-4efc-ae0c-16927612a0c8",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": "8600000400000"<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;},<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"city": "Мегион, Ханты-Манс. авт. окр.",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"date": "2021-04-28T12:41:01",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "Выгружено",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "d9c157ca-fd05-4efc-ae0c-16927612a0c8",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": "8600000400000"<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}<br/>
 &emsp;&emsp;&emsp;&emsp;]<br/>
 &emsp;&emsp;}<br/>
