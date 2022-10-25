@@ -145,15 +145,15 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"city": "Сургут, Ханты-Манс. авт. окр.",<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"date": "2021-04-26T14:07:13",<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "В пути",<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "",<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": ""<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "f1eb1809-47d4-4f0b-9a74-fa416e9d3df2",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": "8600001000000"<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;},<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"city": "Сургут, Ханты-Манс. авт. окр.",<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"date": "2021-04-27T00:00:00",<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"status": "Задержка в пути",<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "",<br/>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": ""<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"fias_id": "f1eb1809-47d4-4f0b-9a74-fa416e9d3df2",<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"kladr_id": "8600001000000"<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;},<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;{<br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"city": "Мегион, Ханты-Манс. авт. окр.",<br/>
