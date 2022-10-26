@@ -54,12 +54,12 @@ API WNOG – это набор стандартных решений для ин
 #### Структура запроса:
 | Ключ | Описание | Тип данных (Макс. длина) |
 | :-------------|:-----------|:-----|
-| order_number* | Номер заявки | Массив: <br/>`Строка (100)` |
+| order_number | Номер заявки | Массив: <br/>`Строка (100)` |
 ИЛИ
-| delivery_contract_number*| Номер договора поставки | `Строка (50)` |
-| application_number* | Номер приложения | `Строка (30)` |
-
-*В параметрах запроса указывается (order_number) или (delivery_contract_number и application_number)
+| delivery_contract_number| Номер договора поставки | `Строка (50)` |
+| application_number | Номер приложения | `Строка (30)` |
+ИЛИ
+| vehicle_type| Наименование транспортного средства | `Строка (100)` |
 
 **Пример тела запроса:**
 >[<br/>
@@ -70,6 +70,9 @@ API WNOG – это набор стандартных решений для ин
 &emsp;&emsp;"delivery_contract_number": "НомерДоговораПоставки",<br/>
 &emsp;&emsp;"application_number": "НомерПриложения"<br/>
 &emsp;}<br/>
+&emsp;{<br/>
+&emsp;&emsp;"vehicle_type": "НаименованиеТранспортногоСредства"<br/>
+&emsp;},<br/>
 ]<br/>
 
 ### [Ответ:](#Содержание)<span id="ShippingGetAnswer"><span>
