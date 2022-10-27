@@ -69,7 +69,7 @@ API WNOG – это набор стандартных решений для ин
 &emsp;{<br/>
 &emsp;&emsp;"delivery_contract_number": "НомерДоговораПоставки",<br/>
 &emsp;&emsp;"application_number": "НомерПриложения"<br/>
-&emsp;}<br/>
+&emsp;},<br/>
 &emsp;{<br/>
 &emsp;&emsp;"vehicle_number": "НомерТС"<br/>
 &emsp;}<br/>
